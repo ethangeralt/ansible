@@ -1,0 +1,6 @@
+- name: Echo Playbook for Ansible
+  hosts: master
+  tasks:
+     - name: Echoing
+       raw: echo "Hello"
+
